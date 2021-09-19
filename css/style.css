@@ -20,6 +20,12 @@ html,
   font-size: 16px;
   font-family: "Karla", sans-serif;
 }
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
 body {
   padding: 2rem;
   display: flex;
@@ -42,7 +48,7 @@ body {
 .introduction,
 .subscription,
 .faq {
-  padding: calc(1.8rem + (53 - 28.8) * ((100vw - 375px) / (1440 - 375)));
+  padding: calc(1.8rem + (48 - 28.8) * ((100vw - 375px) / (1440 - 375)));
 }
 .container .introduction h1 {
   font-size: calc(1.31rem + (33 - 21) * ((100vw - 375px) / (1440 - 375)));
@@ -90,7 +96,7 @@ body {
   margin-top: 0.8rem;
   color: var(--Light_Gray);
   margin-bottom: 1.875rem;
-  font-size: calc(0.8rem + (22 - 12.8) * ((100vw - 375px) / (1440 - 375)));
+  font-size: calc(0.8rem + (19 - 12.8) * ((100vw - 375px) / (1440 - 375)));
 }
 
 .subscription button {
@@ -151,7 +157,8 @@ li {
   }
 
   .container {
-    height: 41rem;
+    height: 38rem;
+    width: 50.75rem;
     border-radius: 10px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 18.25rem 22.75rem;
@@ -161,7 +168,7 @@ li {
     grid-row: 1;
   }
   .container .introduction p {
-    font-size: 22px;
+    font-size: 19px;
     word-spacing: 5.4px;
     line-height: 1.5;
   }
@@ -171,7 +178,7 @@ li {
     border-radius: 0 0 0 10px;
   }
   .subscription p {
-    margin: 1rem 0 2.5rem;
+    margin: 1rem 0 2.37rem;
   }
   .faq {
     grid-column: 3/5;
